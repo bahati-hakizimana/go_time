@@ -12,5 +12,5 @@ func main() {
 
 	fmt.Println(presenteTime)
 
-	fmt.Println(presenteTime.Format("01-02-2006"))
+	fmt.Println(presenteTime.Format("01-02-2006 Monday"))
 }
