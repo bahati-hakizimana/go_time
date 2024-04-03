@@ -11,4 +11,6 @@ func main() {
 	presenteTime := time.Now()
 
 	fmt.Println(presenteTime)
+
+	fmt.Println(presenteTime.Format("01-02-2006"))
 }
